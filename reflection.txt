@@ -1,0 +1,12 @@
+In big data sets, it is a fast and reliable way to get specific data sets. 
+Even when the data has the same hash, it is easy to point down a line of the data
+to the right set, like a small list that we had before. It is sort of like a list
+of lists, where each list has it's own name. So it's a find the first name, then 
+go down that list to the actuall name. 
+
+I handled collisions by pointing down the nodes and assigning the conflicting 
+to the bottom of the chain.
+
+A programer may choose to use a hash table when they need fast, constant-time access,
+storing unique keys, or when you care about lookup speed more than order. Like with
+a contact list like in the assignment, an inventory system, or something similar. 
